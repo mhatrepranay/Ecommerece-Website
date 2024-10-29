@@ -1,0 +1,92 @@
+/* styles.css (or your preferred CSS file) */
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-top {
+    animation: slideInFromTop 1.2s ease-in-out forwards;
+  }
+  
+  @keyframes slideInFromTop1 {
+    0% {
+      transform: translateY(-20%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-top1 {
+    animation: slideInFromTop1 1.3s ease-in-out forwards;
+  }
+
+  @keyframes slideInFrombottom {
+    0% {
+      transform: translateY(30%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-bottom {
+    animation: slideInFrombottom 1.5s ease-in-out forwards;
+  }
+  
+
+  .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  } 
+
+  #chat{
+    border: 2px solid black;
+  }
+
+/* Chatbot button style */
+.chatbot-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #4400ae; /* Change the color to green */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Change the border-radius to make it square */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+/* Chatbot container style */
+.chatbot-container {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1000;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  overflow-y: auto; /* Enable scrolling if the chatbot content overflows */
+}
+
+/* Style to hide chatbot initially */
+.chatbot-container.hide {
+  display: none;
+}
+
+

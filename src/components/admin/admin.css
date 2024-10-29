@@ -1,0 +1,190 @@
+
+#white{
+  color: white;
+  font-size: 34px;
+}
+ 
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+  flex: 0 0 250px;
+}
+
+/* Set the sidebar to fixed position */
+#sidebar {
+  position: fixed;
+  height: 100%;
+  width: 250px; /* Set your desired width */
+  background-color: #343a40; /* Set your desired background color */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+/* Adjust the content to give space for the fixed sidebar */
+#content {
+  flex: 1;
+  margin-left: 250px; /* Set the same width as the sidebar */
+  padding: 0px; /* Add some padding to separate the content from the sidebar */
+  /* Add any other styling you want for the content */
+}
+
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+ 
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+ 
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#sidebar {
+   
+  background: #3e3e3e;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #000000;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #1f1f20;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  color: white;
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  text-decoration: none;
+}
+#sidebar ul li a:hover {
+  color: #202021;
+  background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #1c1d1e;
+}
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #3e3e3e;
+}
+
+.dropdown-toggle::after {
+ 
+  margin-left: 9.255em;
+}
+
+ 
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: white;
+}
+
+ 
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+ 
+
+/* logout model */
+
+ 
+
+.logout-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.modal-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.modal-buttons button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.2s;
+}
+
+.modal-buttons button:hover {
+  background-color: #0056b3;
+}
+
+ 

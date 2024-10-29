@@ -1,0 +1,39 @@
+/* Contact.css */
+
+/* Style for the contact image */
+.contact-image {
+    height: 500px;
+    width: 500px;
+    /* Add more styling as needed */
+  }
+  
+  /* Style for the contact form */
+  .contact-form {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the send button */
+  #send-button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #4d4e50;
+    color: #fff;
+    border-color: #343a40;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #send-button:hover {
+    background-color: #212529;
+    color: #fff;
+  }
+  .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+  /* Additional styles can be added as needed */
+  

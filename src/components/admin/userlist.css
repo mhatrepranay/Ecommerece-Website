@@ -1,0 +1,183 @@
+ 
+#new {
+    margin-top: 0px;
+    text-align: center;
+}
+
+#h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    
+    margin-left: 180px;
+ 
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+#table {
+    
+    margin-left: 160px;
+    /* width: 100%; */
+    border-collapse: collapse;
+    /* border: 1px solid #b41e1e; */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: #cdd4f0;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+ 
+
+.pagination {
+    display: flex;
+    justify-content: center;
+   
+ 
+    margin-top: 20px;
+}
+ 
+
+.pagination:disabled {
+    cursor: not-allowed; 
+    background-color: #ccc;
+}
+.table-container{
+
+    display: flex;
+    justify-content: center;
+}
+  
+
+
+/* addproduct.css */
+
+/* Container styles */
+.container111 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+#card {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Form styles */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Button styles */
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+    border-color: #23272b;
+}
+
+
+/* Css of the order list */
+.order-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .order-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+  }
+  
+   
+  
+  /* Optional: Add responsive styling */
+  @media (max-width: 768px) {
+    .order-list-container {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+  }
+  
+  /* Add these styles to your CSS */
+.order-card-black4  {
+    background-color: #111010; /* Purple */
+    color: rgb(248, 248, 248); /* Text color */
+    border-top-left-radius: 60px;
+  }
+  
+  .order-card-black3 {
+    background-color: #2b2a2a; /* Orange */
+    color: white; /* Text color */
+    border-top-right-radius: 60px;
+  }
+  
+  .order-card-black2 {
+    background-color: #535554; /* Green */
+    color: rgb(255, 240, 240); /* Text color */
+    border-top-left-radius: 60px;
+  }
+  
+  .order-card-black1 {
+    background-color: #d3d3d3; /* Steel Blue */
+    color: rgb(10, 10, 10); /* Text color */
+    border-top-right-radius: 60px;
+    
+  }
+  
+  .order-card-black5  {
+    background-color: #050505; /* Purple */
+    color: rgb(248, 248, 248); /* Text color */
+    border-top-right-radius: 60px;
+  }
+  
+  .order-card-black6 {
+    background-color: #2b2a2a; /* Orange */
+    color: white; /* Text color */
+    border-top-left-radius: 60px;
+  }
+  
+  .order-card-black7 {
+    background-color: #535554; /* Green */
+    color: rgb(255, 240, 240); /* Text color */
+    border-top-right-radius: 60px;
+  }
+  
+  .order-card-black8 {
+    background-color: #d3d3d3; /* Steel Blue */
+    color: rgb(10, 10, 10); /* Text color */
+    border-top-left-radius: 60px;
+  }
+  
+  
+   
+  
+  /* Add more colors if needed */
+  

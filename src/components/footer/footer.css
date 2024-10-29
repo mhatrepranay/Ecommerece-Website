@@ -1,0 +1,44 @@
+/* Footer.css */
+.facebook-icon {
+    color: blue; /* Change this to your desired color */
+}
+
+.twit-icon {
+    color: #1DA1F2; /* Change this to your desired color */
+}
+
+.instagram-icon {
+    color: #E4405F; /* Change this to your desired color */
+}
+
+.linkedin-icon{
+    color: #030c6d; /* Change this to your desired color */
+}
+
+
+
+.social-icons {
+    display: inline-block;
+}
+
+.social-icons i {
+    display:inline-flex;
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%; /* Makes the icon circular */
+    margin-right: 10px;
+}
+
+.social-icons i:hover {
+    transform: scale(1.1); /* Slight scaling on hover */
+    filter: brightness(1.5); /* Increase brightness on hover */
+}
+
+ 
+   
+  
+  

@@ -1,0 +1,96 @@
+/* Search.css */
+.search-container {
+    text-align: center;
+  }
+
+  /* Add this CSS to your search.css file or your preferred CSS file */
+.product-details {
+  position: relative;
+}
+
+.download-icon {
+  position: absolute;
+  top: 10px; /* Adjust this value to control the vertical position */
+  right: 10px; /* Adjust this value to control the horizontal position */
+  cursor: pointer;
+}
+#fa{
+  font-size: 25px;
+}
+#down{
+  color: rgb(243, 159, 159);
+}
+#down1{
+  color: rgb(64, 220, 124);
+}
+#down:active{
+  color: rgb(230, 69, 69);
+}
+#down1:active{
+  color: green;
+}
+#imgg{
+  padding: 15px;
+   border: 1px solid black;
+    box-shadow: 5px 10px 20px #888888; 
+}
+
+  
+  .search-form {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .search-input {
+    width: 200px; /* Adjust the width as needed */
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    width: auto;
+  }
+  
+  .product-details {
+    text-align: left;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  #brd{
+    padding: 10px;
+    border: 2px solid black;
+  }
+
+  /* Search.css */
+/* ... (your existing styles) */
+
+.product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust the max height as needed */
+  }
+  
+  .product-description {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  /* ... (other styles as needed) */
+  
